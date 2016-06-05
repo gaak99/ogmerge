@@ -28,7 +28,7 @@ The first two need to be looked at closely and set correctly in your Emacs init 
 
 ## Shared note merge flow (typically once a day if a shared note is modified)
 ### One Emacs instance and one Orgzly instance
-*WARNING* - this is immature software and thus needs more real world testing so make sure you have backups of any data files you can't afford to lose (at least until you are convinced yourself it is solid or at least the emergency backup copies it makes are solid (see init var _ogmerge-backup-p_ and _ogmerge-backup-dir_)).
+*WARNING* - this is immature software and thus needs more real world testing so make sure you have backups of any data files you can't afford to lose (at least until you are convinced yourself it is solid or at least the emergency backup copies it makes are solid (see init var _ogmerge-backup?_ and _ogmerge-backup-dir_)).
 
 1. Orgzly _Save_ (long-press Forced if needbe) note to $cloud
 2. Emacs run _ogmerge-ediff_ (and answer filename prompt with shared org note (base) filename)
