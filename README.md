@@ -36,11 +36,11 @@ The first two need to be looked at closely and set correctly in your Emacs init 
 
 1. Orgzly _Save_ (long-press Forced if needbe) note to $cloud
 2. Emacs run _ogmerge-ediff_ (and answer filename prompt with shared org note (base) filename)
-3. Emacs ediff merge/resolve changed chunks
-4. Emacs ediff save/overwrite (_save-buffer_) merged buf to same local file (answer 'y' to prompts to overwrite)
-5. Emacs ediff quit
-6. Emacs _ogmerge-push_ local file to $cloud (orgzly) dir
-7. Orgzly _Load_ note
+   * ediff merge/resolve changed chunks
+   * ediff save/overwrite (_save-buffer_) merged buf to same local file (answer 'y' to prompts to overwrite)
+   * ediff quit
+3. Emacs _ogmerge-push_ local file to $cloud (orgzly) dir
+4. Orgzly _Load_ note
 
 ### One Emacs instance and multiple Orgzly instances
 xxxVerifyAgain
