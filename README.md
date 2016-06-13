@@ -9,6 +9,7 @@ emacs ediff org-mode orgzly dropbox cloud sync
 ## Install
 (later will be avail on MELPA if all goes well)
 
+	;; dependancies: make sure f & s & dash pkgs installed via *ELPA
     (add-to-list 'load-path "/path/to/ogmerge")
     (require 'ogmerge)
 
