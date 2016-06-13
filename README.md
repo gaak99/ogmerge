@@ -1,4 +1,4 @@
-# Ogmerge
+# Ogmerge (Oh Gee merge)
 An Emacs pkg to merge changes in shared Emacs/Orgzly Org notes. 
 
 It's possible that Emacs and Orgzly mobile app can modify the same Org note shared via $cloud. Currently there is no good way to resolve those changes. _git_ is a good solution and on the Orgzly todo list. Until that feature is avail here is a wrapper around Emacs Ediff to merge changes and keep the shared note file in sync. 
@@ -40,7 +40,7 @@ The first two need to be looked at closely and set correctly in your Emacs init 
    * ediff merge/resolve changed chunks
    * ediff save/overwrite (_save-buffer_) merged buf to same local file (answer 'y' to prompts to overwrite)
    * ediff quit
-3. Emacs _ogmerge-push_ local file to $cloud (orgzly) dir
+3. Emacs _ogmerge-push_ local file to $cloud (orgzly) dir (and answer filename prompt with shared org note (base) filename)
 4. Orgzly _Load_ note
 
 ### One Emacs instance and multiple Orgzly instances
